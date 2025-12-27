@@ -42,5 +42,6 @@
 
     <modules>
         <module>webp/plugin</module>
+        <module>photoshop/plugin</module>
     </modules>
 </project>

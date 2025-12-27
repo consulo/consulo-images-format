@@ -1,4 +1,4 @@
-package consulo.images.format.webp;
+package consulo.images.format.photoshop;
 
 import consulo.annotation.component.ExtensionImpl;
 import consulo.component.extension.SPIClassLoaderExtension;
@@ -12,7 +12,7 @@ import java.util.Set;
  * @since 2025-12-27
  */
 @ExtensionImpl
-public class WebPSPIClassLoaderExtension implements SPIClassLoaderExtension {
+public class PhotoshopSPIClassLoaderExtension implements SPIClassLoaderExtension {
     @Nonnull
     @Override
     public Class<?> getTargetClass() {
@@ -22,6 +22,6 @@ public class WebPSPIClassLoaderExtension implements SPIClassLoaderExtension {
     @Nonnull
     @Override
     public Set<String> getSupportedFileExtensions() {
-        return Set.of("webp");
+        return Set.of("psd", "psb");
     }
 }
