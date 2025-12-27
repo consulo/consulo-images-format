@@ -10,4 +10,6 @@ module consulo.images.format.photoshop {
     requires com.twelvemonkeys.imageio.psd;
 
     requires java.desktop; // TODO move to desktop awt module!
+
+    provides javax.imageio.spi.ImageReaderSpi with consulo.images.format.photoshop.HackPSDImageReaderSpi;
 }

@@ -10,4 +10,6 @@ module consulo.images.format.webp {
     requires com.twelvemonkeys.imageio.webp;
 
     requires java.desktop; // TODO move to desktop awt module!
+
+    provides javax.imageio.spi.ImageReaderSpi with consulo.images.format.webp.HackWebPImageReaderSpi;
 }

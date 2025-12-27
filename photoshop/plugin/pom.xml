@@ -84,9 +84,9 @@
         </dependency>
 
         <dependency>
-            <groupId>com.twelvemonkeys.imageio</groupId>
+            <groupId>consulo.internal.com.twelvemonkeys.imageio</groupId>
             <artifactId>imageio-psd</artifactId>
-            <version>3.13.0</version>
+            <version>3.13.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>
