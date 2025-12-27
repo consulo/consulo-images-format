@@ -1,0 +1,11 @@
+<consulo-plugin url="https://github.com/consulo/consulo-images-format">
+    <id>consulo.images.format.webp</id>
+    <name>Images Format: WEBP</name>
+    <version>SNAPSHOT</version>
+    <category>Images</category>
+    <tags>
+        <tag>images</tag>
+    </tags>
+
+    <depends>consulo.library.twelvemonkeys.imageio</depends>
+</consulo-plugin>
