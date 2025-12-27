@@ -1,5 +1,5 @@
 <consulo-plugin url="https://github.com/consulo/consulo-images-format">
-    <id>consulo.images.format.webp</id>
+    <id>consulo.images.format.photoshop</id>
     <name>Images Format: PSD/PSB</name>
     <version>SNAPSHOT</version>
     <category>Images</category>
