@@ -4,4 +4,6 @@
  */
 module consulo.images.format.webp {
     requires consulo.library.twelvemonkeys.imageio;
+
+    requires com.twelvemonkeys.imageio.webp;
 }

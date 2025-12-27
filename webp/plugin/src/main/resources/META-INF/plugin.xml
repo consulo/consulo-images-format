@@ -4,7 +4,7 @@
     <version>SNAPSHOT</version>
     <category>Images</category>
     <tags>
-        <tag>images</tag>
+        <tag>library</tag>
     </tags>
 
     <depends>consulo.library.twelvemonkeys.imageio</depends>
