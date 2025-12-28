@@ -8,5 +8,5 @@
     </tags>
 
     <depends>com.intellij.images</depends>
-    <depends optional="true">consulo.library.twelvemonkeys.imageio</depends>
+    <depends>consulo.library.twelvemonkeys.imageio</depends>
 </consulo-plugin>
