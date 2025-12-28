@@ -1,4 +1,4 @@
-package consulo.images.format.webp;
+package consulo.images.format.webp.awt;
 
 import com.twelvemonkeys.imageio.plugins.webp.WebPImageReaderSpi;
 

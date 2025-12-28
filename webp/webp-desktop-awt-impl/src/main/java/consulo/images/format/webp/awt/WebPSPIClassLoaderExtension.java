@@ -1,5 +1,6 @@
-package consulo.images.format.webp;
+package consulo.images.format.webp.awt;
 
+import consulo.annotation.component.ComponentProfiles;
 import consulo.annotation.component.ExtensionImpl;
 import consulo.component.extension.SPIClassLoaderExtension;
 import jakarta.annotation.Nonnull;
@@ -11,7 +12,7 @@ import java.util.Set;
  * @author VISTALL
  * @since 2025-12-27
  */
-@ExtensionImpl
+@ExtensionImpl(profiles = ComponentProfiles.AWT)
 public class WebPSPIClassLoaderExtension implements SPIClassLoaderExtension {
     @Nonnull
     @Override

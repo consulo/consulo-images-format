@@ -75,7 +75,7 @@
             <version>${project.version}</version>
             <scope>provided</scope>
         </dependency>
-        
+
         <dependency>
             <groupId>consulo.plugin.library</groupId>
             <artifactId>consulo.library.twelvemonkeys-imageio</artifactId>
@@ -87,6 +87,12 @@
             <groupId>consulo.internal.com.twelvemonkeys.imageio</groupId>
             <artifactId>imageio-webp</artifactId>
             <version>3.13.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>consulo.plugin</groupId>
+            <artifactId>consulo.images.format.webp.awt</artifactId>
+            <version>3-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>

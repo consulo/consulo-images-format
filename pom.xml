@@ -42,6 +42,8 @@
 
     <modules>
         <module>webp/plugin</module>
+        <module>webp/webp-desktop-awt-impl</module>
+        
         <module>photoshop/plugin</module>
     </modules>
 </project>
